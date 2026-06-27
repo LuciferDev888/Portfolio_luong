@@ -1,0 +1,265 @@
+{
+  "campaignName": "luong_portfolio_v1",
+  "seoTitle": "Trần Thị Lương | SEO & Growth Marketing Specialist Portfolio",
+  "seoDescription": "Portfolio của Trần Thị Lương - SEO & Growth Marketing Enthusiast. Tối ưu hóa chuyển đổi, Technical SEO và chiến dịch tăng trưởng dựa trên dữ liệu.",
+  "hero": {
+    "headline": "Đột Phá Organic Traffic & Tối Ưu Hóa Tỷ Lệ Chuyển Đổi",
+    "subheadline": "Tôi là Trần Thị Lương - SEO & Growth Marketing Enthusiast. Giúp doanh nghiệp tăng trưởng bền vững qua Technical SEO, chiến lược nội dung chuẩn xác và phân tích dữ liệu GA4/GTM.",
+    "ctaText": "Tư vấn SEO & Growth Miễn Phí",
+    "ctaHref": "#lead-form"
+  },
+  "about": {
+    "title": "Giới Thiệu Bản Thân",
+    "subtitle": "Hành trình theo đuổi Growth Marketing & SEO kỹ thuật số định hướng hiệu suất.",
+    "bio": "Tôi là Trần Thị Lương, hiện là sinh viên năm 3 chuyên ngành Truyền thông Marketing tại Trường Đại học Tài chính - Marketing (UFM). Với niềm đam mê mãnh liệt dành cho SEO Kỹ thuật (Technical SEO) và Marketing Tăng trưởng (Growth Marketing), tôi tập trung vào việc nghiên cứu hành vi người dùng, tối ưu hóa tỷ lệ chuyển đổi (CRO) và xây dựng chiến lược nội dung Topic Cluster để chuyển đổi traffic thành lead thực tế.",
+    "education": [
+      {
+        "degree": "Sinh viên năm 3, Chuyên ngành Truyền thông Marketing",
+        "school": "Trường Đại học Tài chính - Marketing (UFM)",
+        "period": "2023 - 2027 (Dự kiến)"
+      }
+    ],
+    "skillsDetail": [
+      {
+        "category": "SEO & Content",
+        "list": ["Technical SEO Audit", "Keyword Research", "Topic Clustering", "On-page/Off-page SEO", "Content Strategy"]
+      },
+      {
+        "category": "Analytics & CRO",
+        "list": ["Google Analytics 4 (GA4)", "Google Tag Manager (GTM)", "A/B Testing", "Hotjar Heatmaps", "UX/UI Optimization"]
+      },
+      {
+        "category": "Growth & Paid Ads",
+        "list": ["Campaign Management", "Google Search Ads", "Facebook Ads & Pixel", "CAC & LTV Optimization", "Business Development"]
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Năng Lực Cốt Lõi & Giải Pháp Tăng Trưởng",
+    "subtitle": "Giải quyết bài toán tăng trưởng traffic bền vững và tối ưu chuyển đổi từ phễu khách hàng.",
+    "items": [
+      {
+        "id": "b1",
+        "title": "Technical SEO",
+        "description": "Tối ưu hóa cấu trúc website, Schema Markup, Core Web Vitals giúp công cụ tìm kiếm thu thập và lập chỉ mục tối đa.",
+        "icon": "Search"
+      },
+      {
+        "id": "b2",
+        "title": "Content Strategy",
+        "description": "Xây dựng chiến lược nội dung theo cụm chủ đề (Topic Cluster) đánh trúng nhu cầu tìm kiếm của đối tượng mục tiêu.",
+        "icon": "FileText"
+      },
+      {
+        "id": "b3",
+        "title": "Data Analytics & CRO",
+        "description": "Cài đặt đo lường GA4, GTM và phân tích hành vi người dùng bằng Hotjar nhằm cải thiện tỷ lệ chuyển đổi (Conversion Rate).",
+        "icon": "BarChart3"
+      },
+      {
+        "id": "b4",
+        "title": "Growth Marketing",
+        "description": "Thử nghiệm nhanh các kênh organic/paid, tối ưu phễu chuyển đổi và chi phí sở hữu khách hàng (CAC).",
+        "icon": "TrendingUp"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Kinh Nghiệm Thực Chiến",
+    "subtitle": "Hành trình làm việc và tích lũy chuyên môn qua các vị trí marketing số.",
+    "items": [
+      {
+        "id": "exp1",
+        "role": "Cộng tác viên nội dung",
+        "company": "iBasic",
+        "period": "03/2024 - 09/2025",
+        "description": [
+          "Triển khai 10+ bài viết mỗi tháng đạt chuẩn SEO, đảm bảo đúng tiến độ và hướng dẫn dựa trên bộ từ khóa có sẵn.",
+          "Tối ưu hóa cấu trúc nội dung và định hướng bài viết sát với ý định tìm kiếm (Search Intent) của người dùng.",
+          "Phối hợp chặt chẽ với đội ngũ thiết kế và quản trị để đảm bảo nội dung đồng bộ."
+        ]
+      },
+      {
+        "id": "exp2",
+        "role": "Thành viên Content Team",
+        "company": "CLB Talk & Share",
+        "period": "09/2023 - 12/2025",
+        "description": [
+          "Lên ý tưởng sáng tạo và viết nội dung cho Fanpage câu lạc bộ, điều chỉnh định dạng bài viết phù hợp xu hướng truyền thông.",
+          "Tham gia trực tiếp lên kế hoạch và triển khai nội dung cho 5+ chiến dịch truyền thông lớn nhỏ.",
+          "Theo dõi hiệu quả tương tác bài đăng để tối ưu hóa tần suất và thời gian xuất bản bài viết."
+        ]
+      },
+      {
+        "id": "exp3",
+        "role": "Content Marketing Intern",
+        "company": "An Phú Design & Building",
+        "period": "06/2024 - 09/2024",
+        "description": [
+          "Nghiên cứu sâu sắc nhu cầu người dùng và trực tiếp sản xuất 15+ nội dung chuẩn SEO hàng tháng cho website công ty.",
+          "Phối hợp liên phòng ban để thiết lập quy trình kiểm duyệt và tối ưu hóa nội dung trên mọi nền tảng kỹ thuật số.",
+          "Theo dõi các chỉ số GA4 và đề xuất giải pháp cải thiện UX/UI bài viết dựa trên hành vi đọc của người dùng."
+        ]
+      },
+      {
+        "id": "exp4",
+        "role": "Cộng tác viên nội dung",
+        "company": "SEODO",
+        "period": "11/2022 - 09/2023",
+        "description": [
+          "Sáng tạo nội dung chất lượng cao thuộc nhiều lĩnh vực đa dạng: du lịch, sân bay, thiết bị điện...",
+          "Đảm bảo 100% bài viết đạt chuẩn Technical SEO on-page, phân bổ từ khóa tự nhiên và đúng hạn cam kết."
+        ]
+      },
+      {
+        "id": "exp5",
+        "role": "Đồng sáng lập / Ban Đối ngoại",
+        "company": "Dự án Brighten Kid's Smile & Chấm Bi Đỏ",
+        "period": "06/2022 - 08/2023",
+        "description": [
+          "Lập kế hoạch hành động chi tiết và trực tiếp điều phối các hoạt động thiện nguyện tại Làng trẻ SOS.",
+          "Kết nối và ký kết thành công với 2 đối tác truyền thông, 1 nhà tài trợ tài chính và 2 nhà tài trợ hiện vật cho dự án Chấm Bi Đỏ."
+        ]
+      }
+    ]
+  },
+  "certificates": {
+    "title": "Học Bổng & Chứng Chỉ",
+    "subtitle": "Các chứng nhận thực chứng năng lực học tập xuất sắc và năng lực chuyên môn toàn cầu.",
+    "items": [
+      {
+        "id": "sch1",
+        "name": "Học bổng Power On",
+        "issuer": "Quỹ hỗ trợ Power On",
+        "date": "2023 - Hiện tại"
+      },
+      {
+        "id": "sch2",
+        "name": "Học bổng VSCA",
+        "issuer": "Hiệp hội VSCA",
+        "date": "2024"
+      },
+      {
+        "id": "sch3",
+        "name": "Học bổng Vinschool",
+        "issuer": "Hệ thống giáo dục Vinschool",
+        "date": "2020 - 2023"
+      },
+      {
+        "id": "sch4",
+        "name": "Học bổng Vallet",
+        "issuer": "Quỹ học bổng Vallet (Pháp)",
+        "date": "2022"
+      },
+      {
+        "id": "c1",
+        "name": "Google Analytics Individual Qualification (GAIQ)",
+        "issuer": "Google",
+        "date": "2025"
+      },
+      {
+        "id": "c2",
+        "name": "HubSpot Inbound Marketing Certification",
+        "issuer": "HubSpot Academy",
+        "date": "2025"
+      },
+      {
+        "id": "c3",
+        "name": "SEMrush SEO Toolkit Certification",
+        "issuer": "SEMrush",
+        "date": "2024"
+      },
+      {
+        "id": "c4",
+        "name": "Google Ads Search Certification",
+        "issuer": "Google",
+        "date": "2024"
+      }
+    ]
+  },
+  "socialProof": {
+    "title": "Dự Án Thực Chiến & Đánh Giá",
+    "subtitle": "Con số thực tế chứng minh năng lực từ những dự án tôi từng vận hành.",
+    "testimonials": [
+      {
+        "id": "t1",
+        "name": "Nguyễn Văn Minh",
+        "role": "Founder",
+        "company": "E-Clean Vietnam",
+        "avatar": "/images/background2.png",
+        "content": "Lương đã hỗ trợ chúng tôi tăng trưởng hơn 150% organic traffic trong vòng 4 tháng và tối ưu hóa quy trình thu lead tự động. Rất chuyên nghiệp và định hướng dữ liệu.",
+        "rating": 5
+      },
+      {
+        "id": "t2",
+        "name": "Trần Thị Mai",
+        "role": "Marketing Manager",
+        "company": "EduHub Academic",
+        "avatar": "/images/background3.png",
+        "content": "Kỹ năng Technical SEO của Lương cực tốt. Bạn ấy đã giúp chúng tôi giải quyết toàn bộ các lỗi lập chỉ mục kéo dài nhiều tháng qua trên Search Console.",
+        "rating": 5
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Các Gói Giải Pháp Cung Cấp",
+    "subtitle": "Thiết kế phù hợp với quy mô và mục tiêu tăng trưởng của từng doanh nghiệp.",
+    "plans": [
+      {
+        "id": "p1",
+        "name": "SEO & CRO Audit",
+        "price": "3.500.000",
+        "period": "Lần",
+        "description": "Đánh giá toàn diện website và đề xuất giải pháp cải thiện thứ hạng cùng tỷ lệ chuyển đổi.",
+        "features": [
+          "Kiểm tra lỗi Technical SEO",
+          "Nghiên cứu đối thủ & bộ từ khóa",
+          "Đánh giá UX/UI & phễu chuyển đổi",
+          "File báo cáo kèm checklist thực thi chi tiết"
+        ],
+        "ctaText": "Đăng Ký Khảo Sát",
+        "ctaHref": "#lead-form",
+        "isPopular": false
+      },
+      {
+        "id": "p2",
+        "name": "Growth SEO Toàn Diện",
+        "price": "9.500.000",
+        "period": "Tháng",
+        "description": "Đồng hành lâu dài để thực thi và quản lý chiến dịch SEO kết hợp tối ưu CRO nâng cao.",
+        "features": [
+          "Tối ưu Technical SEO liên tục",
+          "Xây dựng Topic Cluster bài bản",
+          "Cài đặt hệ dung đo lường GA4/GTM",
+          "Báo cáo traffic và chuyển đổi hàng tháng"
+        ],
+        "ctaText": "Đồng Hành Ngay",
+        "ctaHref": "#lead-form",
+        "isPopular": true
+      }
+    ]
+  },
+  "faq": [
+    {
+      "id": "faq1",
+      "question": "Bao lâu thì chiến dịch SEO bắt đầu đem lại hiệu quả?",
+      "answer": "Thông thường, SEO cần từ 3 đến 6 tháng để thấy sự thay đổi rõ rệt về organic traffic và thứ hạng từ khóa. Tuy nhiên, các lỗi Technical SEO lớn nếu được sửa có thể mang lại cải thiện ngay sau 2-4 tuần."
+    },
+    {
+      "id": "faq2",
+      "question": "Bạn đo lường hiệu quả công việc dựa trên những chỉ số nào?",
+      "answer": "Tôi tập trung vào các chỉ số tăng trưởng thực tế của doanh nghiệp: Organic Clicks, Impressions, Keyword Rankings và quan trọng nhất là Conversion Rate (số lượt gửi form, số khách hàng liên hệ qua GA4)."
+    },
+    {
+      "id": "faq3",
+      "question": "Tôi có cần tự chuẩn bị nội dung không?",
+      "answer": "Tôi sẽ lập kế hoạch từ khóa, cấu trúc bài viết (outline) chuẩn SEO chi tiết. Bạn có thể tự viết theo hướng dẫn hoặc sử dụng dịch vụ viết bài chuẩn SEO đi kèm trong gói dịch vụ."
+    }
+  ],
+  "cta": {
+    "title": "Bắt Đầu Hành Trình Tăng Trưởng Của Bạn",
+    "description": "Đăng ký tư vấn 30 phút miễn phí. Tôi sẽ phân tích nhanh website của bạn và đề xuất 3 hành động cải thiện SEO ngay lập tức.",
+    "ctaText": "Nhận Tư Vấn Miễn Phí",
+    "ctaHref": "#lead-form"
+  }
+}

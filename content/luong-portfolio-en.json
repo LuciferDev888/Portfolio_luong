@@ -1,0 +1,204 @@
+{
+  "campaignName": "luong_portfolio_en",
+  "seoTitle": "Tran Thi Luong | SEO & Growth Marketing Specialist Portfolio",
+  "seoDescription": "Portfolio of Tran Thi Luong - SEO & Growth Marketing Enthusiast. Optimizing conversion, Technical SEO and data-driven growth marketing.",
+  "hero": {
+    "headline": "Scale Organic Traffic & Optimize Conversion Rate (CRO)",
+    "subheadline": "I'm Tran Thi Luong - SEO & Growth Marketing Specialist. Elevating businesses sustainably with Technical SEO, Topic Cluster strategy, and GA4/GTM data analysis.",
+    "ctaText": "Free SEO & Growth Consultation",
+    "ctaHref": "#lead-form"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Digital SEO & Growth Marketing path driven by performance data.",
+    "bio": "I'm Tran Thi Luong, currently a 3rd-year Marketing Communications student at the University of Finance - Marketing (UFM). Driven by a passion for Technical SEO and Growth Marketing, I focus on analyzing user search intent, optimizing conversion rates (CRO), and building data-driven Topic Cluster content strategies.",
+    "education": [
+      {
+        "degree": "3rd-year Student, Major in Marketing Communications",
+        "school": "University of Finance - Marketing (UFM)",
+        "period": "2023 - 2027 (Expected)"
+      }
+    ],
+    "skillsDetail": [
+      {
+        "category": "SEO & Content",
+        "list": ["Technical SEO Audit", "Keyword Research", "Topic Clustering", "On-page/Off-page SEO", "Content Strategy"]
+      },
+      {
+        "category": "Analytics & CRO",
+        "list": ["Google Analytics 4 (GA4)", "Google Tag Manager (GTM)", "A/B Testing", "Hotjar Heatmaps", "UX/UI Optimization"]
+      },
+      {
+        "category": "Growth & Paid Ads",
+        "list": ["Campaign Management", "Google Search Ads", "Facebook Ads & Pixel", "CAC & LTV Optimization", "Business Development"]
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Core Strengths & Solutions",
+    "subtitle": "Solving organic search traffic growth and conversion funnel leaks.",
+    "items": [
+      {
+        "id": "b1",
+        "title": "Technical SEO",
+        "description": "Optimizing site structure, Schema Markup, and Core Web Vitals to help search engines index your pages seamlessly.",
+        "icon": "Search"
+      },
+      {
+        "id": "b2",
+        "title": "Content Strategy",
+        "description": "Building topic cluster strategies targeting high-value search intent keywords for maximum conversion impact.",
+        "icon": "FileText"
+      },
+      {
+        "id": "b3",
+        "title": "Data Analytics & CRO",
+        "description": "Setting up advanced tracking (GA4, GTM) and analyzing user behaviors (Hotjar) to continuously optimize conversion rates.",
+        "icon": "BarChart3"
+      },
+      {
+        "id": "b4",
+        "title": "Growth Marketing",
+        "description": "Running rapid channel tests, tracking growth funnels, and optimizing customer acquisition costs (CAC).",
+        "icon": "TrendingUp"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "subtitle": "Work history and marketing impact across digital positions.",
+    "items": [
+      {
+        "id": "exp1",
+        "role": "Content Collaborator",
+        "company": "iBasic",
+        "period": "03/2024 - 09/2025",
+        "description": [
+          "Delivered 10+ SEO-optimized articles monthly, ensuring alignment with keyword strategy and editorial guidelines.",
+          "Optimized content layout and keyword mapping according to user Search Intent.",
+          "Collaborated closely with design and management teams to ensure consistent brand voice."
+        ]
+      },
+      {
+        "id": "exp2",
+        "role": "Content Team Member",
+        "company": "Talk & Share Club",
+        "period": "09/2023 - 12/2025",
+        "description": [
+          "Ideated and wrote engaging content for the official Fanpage, adjusting styles based on communication trends.",
+          "Contributed directly to the planning and execution of 5+ key marketing campaigns.",
+          "Monitored engagement performance to optimize posting schedule and reach."
+        ]
+      },
+      {
+        "id": "exp3",
+        "role": "Content Marketing Intern",
+        "company": "An Phú Design & Building",
+        "period": "06/2024 - 09/2024",
+        "description": [
+          "Conducted market/user research and produced 15+ SEO articles monthly for the company's official site.",
+          "Worked across departments to standardize content review and optimization processes on digital platforms.",
+          "Tracked GA4 performance metrics and suggested visual improvements to enhance reading engagement."
+        ]
+      },
+      {
+        "id": "exp4",
+        "role": "Content Collaborator",
+        "company": "SEODO",
+        "period": "11/2022 - 09/2023",
+        "description": [
+          "Produced high-quality SEO content in diverse niches: tourism, airports, electrical devices, etc.",
+          "Ensured 100% on-page optimization checklist compliance, keyword placement, and project deadlines."
+        ]
+      },
+      {
+        "id": "exp5",
+        "role": "Co-founder / External Relations",
+        "company": "Brighten Kid's Smile & Chấm Bi Đỏ Project",
+        "period": "06/2022 - 08/2023",
+        "description": [
+          "Created detailed action plans and coordinated volunteering activities at SOS Children's Village.",
+          "Successfully secured partnerships with 2 media channels, 1 financial sponsor, and 2 in-kind sponsors for Chấm Bi Đỏ project."
+        ]
+      }
+    ]
+  },
+  "certificates": {
+    "title": "Scholarships & Certifications",
+    "subtitle": "Credentials proving academic excellence and global digital marketing expertise.",
+    "items": [
+      {
+        "id": "sch1",
+        "name": "Power On Scholarship",
+        "issuer": "Power On Support Fund",
+        "date": "2023 - Present"
+      },
+      {
+        "id": "sch2",
+        "name": "VSCA Scholarship",
+        "issuer": "Vietnam Student Association (VSCA)",
+        "date": "2024"
+      },
+      {
+        "id": "sch3",
+        "name": "Vinschool Scholarship",
+        "issuer": "Vinschool Education System",
+        "date": "2020 - 2023"
+      },
+      {
+        "id": "sch4",
+        "name": "Vallet Scholarship",
+        "issuer": "Vallet Scholarship Fund (France)",
+        "date": "2022"
+      },
+      {
+        "id": "c1",
+        "name": "Google Analytics Individual Qualification (GAIQ)",
+        "issuer": "Google",
+        "date": "2025"
+      },
+      {
+        "id": "c2",
+        "name": "HubSpot Inbound Marketing Certification",
+        "issuer": "HubSpot Academy",
+        "date": "2025"
+      },
+      {
+        "id": "c3",
+        "name": "SEMrush SEO Toolkit Certification",
+        "issuer": "SEMrush",
+        "date": "2024"
+      },
+      {
+        "id": "c4",
+        "name": "Google Ads Search Certification",
+        "issuer": "Google",
+        "date": "2024"
+      }
+    ]
+  },
+  "socialProof": {
+    "title": "Client Testimonials",
+    "subtitle": "Real results achieved for brands and projects.",
+    "testimonials": [
+      {
+        "id": "t1",
+        "name": "Nguyen Van Minh",
+        "role": "Founder",
+        "company": "E-Clean Vietnam",
+        "avatar": "/images/background2.png",
+        "content": "Luong helped us scale organic search traffic by over 150% in 4 months and automated our lead-generation process. Highly professional and data-driven approach.",
+        "rating": 5
+      },
+      {
+        "id": "t2",
+        "name": "Tran Thi Mai",
+        "role": "Marketing Manager",
+        "company": "EduHub Academic",
+        "avatar": "/images/background3.png",
+        "content": "Excellent Technical SEO skills. She diagnosed and resolved indexing bugs that had affected our Search Console performance for months.",
+        "rating": 5
+      }
+    ]
+  }
+}
