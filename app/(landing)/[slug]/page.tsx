@@ -53,7 +53,7 @@ export default async function LandingPage({
       <BenefitsSection {...content.benefits} />
       <CertificatesSection content={content.certificates} />
       <SocialProofSection {...content.socialProof} />
-      <LeadForm campaignName={content.campaignName} />
+      <LeadForm campaignName={content.campaignName} content={content.contact} />
       <Footer />
     </main>
   )

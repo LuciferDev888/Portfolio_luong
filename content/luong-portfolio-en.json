@@ -200,5 +200,14 @@
         "rating": 5
       }
     ]
+  },
+  "contact": {
+    "sectionTitle": "Connect with me",
+    "title": "Let's work together! 🍃",
+    "subtitle": "I'm open to internships, collaborations and exciting opportunities.",
+    "email": "ttluong1909@gmail.com",
+    "location": "Ho Chi Minh City, Vietnam",
+    "phone": "0776 275 793 (Zalo)",
+    "ctaText": "Say Hello"
   }
 }

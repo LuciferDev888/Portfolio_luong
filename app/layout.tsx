@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
+import { FairyDust } from "@/components/effects/FairyDust";
 
 const inter = Inter({
   subsets: ["latin", "vietnamese"],
@@ -54,6 +55,7 @@ export default function RootLayout({
           </noscript>
         )}
         {children}
+        <FairyDust />
       </body>
     </html>
   );

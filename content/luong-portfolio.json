@@ -261,5 +261,14 @@
     "description": "Đăng ký tư vấn 30 phút miễn phí. Tôi sẽ phân tích nhanh website của bạn và đề xuất 3 hành động cải thiện SEO ngay lập tức.",
     "ctaText": "Nhận Tư Vấn Miễn Phí",
     "ctaHref": "#lead-form"
+  },
+  "contact": {
+    "sectionTitle": "Kết nối với tôi",
+    "title": "Hãy hợp tác cùng nhau! 🍃",
+    "subtitle": "Tôi luôn sẵn sàng cho các cơ hội thực tập, hợp tác và các thử thách thú vị.",
+    "email": "ttluong1909@gmail.com",
+    "location": "Tân Thuận Tây, Quận 7, Tp. HCM",
+    "phone": "0776 275 793 (Zalo)",
+    "ctaText": "Liên hệ ngay"
   }
 }

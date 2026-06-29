@@ -117,6 +117,16 @@ export interface CTAContent {
   ctaHref: string
 }
 
+export interface ContactContent {
+  sectionTitle: string
+  title: string
+  subtitle: string
+  email: string
+  location: string
+  phone: string
+  ctaText: string
+}
+
 export interface LandingPageContent {
   campaignName: string
   seoTitle: string
@@ -130,4 +140,5 @@ export interface LandingPageContent {
   pricing: PricingContent
   faq: FAQItem[]
   cta: CTAContent
+  contact: ContactContent
 }
