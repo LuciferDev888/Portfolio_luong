@@ -70,16 +70,30 @@ export function ExperienceSection({ content, className }: ExperienceSectionProps
         {/* Content Layout - Left side empty for background image, Right side contains timeline */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           
-          {/* Left Column (Columns 1-5): Character Image */}
-          <div className="lg:col-span-5 flex justify-center items-center w-full">
+          {/* Left Column (Columns 1-5): Two Character Images stacked vertically */}
+          <div className="lg:col-span-5 flex flex-col gap-6 justify-center items-center w-full">
             <ScrollReveal direction="left" delay={200} className="w-full">
-              <div className="relative group max-w-[90%] md:max-w-md mx-auto">
+              <div className="relative group max-w-[80%] md:max-w-xs mx-auto">
                 {/* Soft white/slate glow backdrop */}
                 <div className="absolute -inset-1 bg-gradient-to-r from-white to-slate-100 rounded-[2.2rem] blur opacity-20 group-hover:opacity-35 transition duration-1000 group-hover:duration-200" />
                 <div className="relative border border-white/10 rounded-[2.2rem] p-1.5 backdrop-blur-sm bg-white/5">
                   <img
                     src="/character_images/2.png"
-                    alt="Kinh nghiệm"
+                    alt="Kinh nghiệm 1"
+                    className="w-full h-auto rounded-[2rem] object-cover transition duration-500 group-hover:scale-[1.01]"
+                  />
+                </div>
+              </div>
+            </ScrollReveal>
+
+            <ScrollReveal direction="left" delay={300} className="w-full">
+              <div className="relative group max-w-[80%] md:max-w-xs mx-auto">
+                {/* Soft white/slate glow backdrop */}
+                <div className="absolute -inset-1 bg-gradient-to-r from-white to-slate-100 rounded-[2.2rem] blur opacity-20 group-hover:opacity-35 transition duration-1000 group-hover:duration-200" />
+                <div className="relative border border-white/10 rounded-[2.2rem] p-1.5 backdrop-blur-sm bg-white/5">
+                  <img
+                    src="/character_images/3.png"
+                    alt="Kinh nghiệm 2"
                     className="w-full h-auto rounded-[2rem] object-cover transition duration-500 group-hover:scale-[1.01]"
                   />
                 </div>
