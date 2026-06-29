@@ -78,6 +78,9 @@ export interface TestimonialItem {
   avatar?: string
   content: string
   rating?: number
+  image?: string
+  tasks?: string[]
+  metrics?: string[]
 }
 
 export interface SocialProofContent {

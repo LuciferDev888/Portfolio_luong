@@ -178,8 +178,8 @@
     ]
   },
   "socialProof": {
-    "title": "Client Testimonials",
-    "subtitle": "Real results achieved for brands and projects.",
+    "title": "Client Testimonials & Case Studies",
+    "subtitle": "Real numbers proving the value of projects I've managed.",
     "testimonials": [
       {
         "id": "t1",
@@ -188,7 +188,19 @@
         "company": "E-Clean Vietnam",
         "avatar": "/images/background2.png",
         "content": "Luong helped us scale organic search traffic by over 150% in 4 months and automated our lead-generation process. Highly professional and data-driven approach.",
-        "rating": 5
+        "rating": 5,
+        "image": "/project/a.png",
+        "tasks": [
+          "Comprehensive SEO website audit",
+          "Niche keyword research",
+          "UX/UI & CRO lead funnel optimization",
+          "GA4/GTM tracking setup & monitoring"
+        ],
+        "metrics": [
+          "+150% Organic Traffic",
+          "2x Lead Conversion Rate",
+          "Top 3 Brand Keywords"
+        ]
       },
       {
         "id": "t2",
@@ -197,7 +209,40 @@
         "company": "EduHub Academic",
         "avatar": "/images/background3.png",
         "content": "Excellent Technical SEO skills. She diagnosed and resolved indexing bugs that had affected our Search Console performance for months.",
-        "rating": 5
+        "rating": 5,
+        "image": "/project/b.png",
+        "tasks": [
+          "Advanced indexing error resolution",
+          "Site architecture optimization (Sitemap, Robots.txt)",
+          "Page speed & Core Web Vitals optimization",
+          "Academic Topic Cluster content strategy"
+        ],
+        "metrics": [
+          "100% Indexing Errors Fixed",
+          "+80% Clicks from Google Search",
+          "Top 10 Main Industry Keywords"
+        ]
+      },
+      {
+        "id": "t3",
+        "name": "Le Hoang Nam",
+        "role": "Creative Director",
+        "company": "An Phu Design",
+        "avatar": "/images/background4.png",
+        "content": "Luong reconstructed our content strategy and interior design website architecture. This helped us attract high-quality targeted leads and solidify our positioning.",
+        "rating": 5,
+        "image": "/project/c.png",
+        "tasks": [
+          "Interior design market research",
+          "Sustainable SEO content strategy",
+          "On-page & Internal linking optimization",
+          "Project Portfolio display UX optimization"
+        ],
+        "metrics": [
+          "+120% Traffic from VIP Clients",
+          "+60% Quote requests via website",
+          "Top 5 Villa Design Keywords"
+        ]
       }
     ]
   },

@@ -5,6 +5,7 @@ import { ScrollReveal } from '@/components/utils/ScrollReveal'
 import { Mail, MapPin, Phone, Send } from 'lucide-react'
 import { ContactContent } from '@/types/landing'
 import { trackCTAClick } from '@/lib/analytics'
+import Image from 'next/image'
 
 interface LeadFormProps {
   campaignName: string
@@ -111,8 +112,26 @@ export function LeadForm({ campaignName, content, className }: LeadFormProps) {
 
           </div>
           
-          {/* Right space empty (Columns 8-12) for background girl alignment */}
-          <div className="hidden lg:block lg:col-span-5 h-[10px]" />
+          {/* Right Column (Columns 8-12): Farewell Image character */}
+          <div className="lg:col-span-5 flex justify-center items-center w-full">
+            <ScrollReveal direction="right" delay={200} className="w-full">
+              <div className="relative group max-w-[90%] md:max-w-md mx-auto">
+                {/* Emerald glow backdrop */}
+                <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-emerald-300 rounded-[2.2rem] blur opacity-25 group-hover:opacity-40 transition duration-1000 group-hover:duration-200" />
+                <div className="relative border border-white/10 rounded-[2.2rem] p-1.5 backdrop-blur-sm bg-white/5 shadow-2xl">
+                  <div className="relative aspect-[3/4] w-full rounded-[2rem] overflow-hidden">
+                    <Image
+                      src="/images/tam_biet.png"
+                      alt="Tạm biệt"
+                      fill
+                      className="object-cover transition duration-500 group-hover:scale-[1.01]"
+                      sizes="(max-width: 1024px) 100vw, 40vw"
+                    />
+                  </div>
+                </div>
+              </div>
+            </ScrollReveal>
+          </div>
           
         </div>
       </div>

@@ -188,7 +188,19 @@
         "company": "E-Clean Vietnam",
         "avatar": "/images/background2.png",
         "content": "Lương đã hỗ trợ chúng tôi tăng trưởng hơn 150% organic traffic trong vòng 4 tháng và tối ưu hóa quy trình thu lead tự động. Rất chuyên nghiệp và định hướng dữ liệu.",
-        "rating": 5
+        "rating": 5,
+        "image": "/project/a.png",
+        "tasks": [
+          "Audit SEO toàn diện website",
+          "Nghiên cứu bộ từ khóa ngách",
+          "Tối ưu hóa UX/UI & CRO phễu thu lead",
+          "Cài đặt & theo dõi đo lường GA4/GTM"
+        ],
+        "metrics": [
+          "+150% Organic Traffic",
+          "Gấp 2 lần tỷ lệ chuyển đổi Lead",
+          "Đạt Top 3 từ khóa thương hiệu"
+        ]
       },
       {
         "id": "t2",
@@ -197,7 +209,40 @@
         "company": "EduHub Academic",
         "avatar": "/images/background3.png",
         "content": "Kỹ năng Technical SEO của Lương cực tốt. Bạn ấy đã giúp chúng tôi giải quyết toàn bộ các lỗi lập chỉ mục kéo dài nhiều tháng qua trên Search Console.",
-        "rating": 5
+        "rating": 5,
+        "image": "/project/b.png",
+        "tasks": [
+          "Khắc phục lỗi lập chỉ mục (Index) nâng cao",
+          "Tối ưu cấu trúc trang (Sitemap, Robots.txt)",
+          "Tối ưu tốc độ tải trang & Core Web Vitals",
+          "Xây dựng Topic Cluster nội dung học thuật"
+        ],
+        "metrics": [
+          "Sửa 100% lỗi Indexing",
+          "+80% Click từ Google Search",
+          "Top 10 từ khóa ngành chính"
+        ]
+      },
+      {
+        "id": "t3",
+        "name": "Lê Hoàng Nam",
+        "role": "Creative Director",
+        "company": "An Phú Design",
+        "avatar": "/images/background4.png",
+        "content": "Lương đã hỗ trợ chúng tôi thiết kế lại chiến lược nội dung và cấu trúc website nội thất. Giúp thương hiệu tiếp cận lượng khách hàng mục tiêu chất lượng cao và định vị vị thế vững chắc.",
+        "rating": 5,
+        "image": "/project/c.png",
+        "tasks": [
+          "Nghiên cứu thị trường thiết kế nội thất",
+          "Xây dựng chiến lược nội dung SEO bền vững",
+          "Thiết lập quy trình On-page & Internal Link",
+          "Tối ưu giao diện hiển thị Portfolio dự án"
+        ],
+        "metrics": [
+          "Tăng 120% Traffic từ khách VIP",
+          "+60% yêu cầu báo giá qua website",
+          "Top 5 từ khóa thiết kế biệt thự"
+        ]
       }
     ]
   },
