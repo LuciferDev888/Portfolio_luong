@@ -5,22 +5,18 @@ import { cn } from '@/lib/utils'
 import { Menu, X, Globe } from 'lucide-react'
 import { trackCTAClick } from '@/lib/analytics'
 
+import { useLanguage } from '@/components/context/LanguageContext'
+
 export function Header() {
   const [isOpen, setIsOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const [opacity, setOpacity] = useState(1) // Default to visible
   const [translateY, setTranslateY] = useState(0) // Default to normal position
   const [isVideoFinished, setIsVideoFinished] = useState(false)
-  const [lang, setLang] = useState<'vi' | 'en'>('vi')
+  const { lang, setLanguage } = useLanguage()
 
   useEffect(() => {
     const pathname = window.location.pathname
-    // Determine language based on the URL ending with '-en'
-    if (pathname.endsWith('-en')) {
-      setLang('en')
-    } else {
-      setLang('vi')
-    }
 
     const isLandingPage =
       pathname === '/' ||
@@ -95,15 +91,7 @@ export function Header() {
     if (targetLang === lang) return
 
     trackCTAClick(`Switch to ${targetLang.toUpperCase()}`, 'language_toggle')
-    const pathname = window.location.pathname
-    
-    if (targetLang === 'en') {
-      // Append '-en' to the current slug
-      window.location.href = pathname + '-en'
-    } else {
-      // Remove '-en' from the current slug
-      window.location.href = pathname.replace(/-en$/, '')
-    }
+    setLanguage(targetLang)
   }
 
   return (

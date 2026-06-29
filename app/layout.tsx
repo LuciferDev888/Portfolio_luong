@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
 import { FairyDust } from "@/components/effects/FairyDust";
+import { LanguageProvider } from "@/components/context/LanguageContext";
 
 const inter = Inter({
   subsets: ["latin", "vietnamese"],
@@ -54,7 +55,9 @@ export default function RootLayout({
             />
           </noscript>
         )}
-        {children}
+        <LanguageProvider>
+          {children}
+        </LanguageProvider>
         <FairyDust />
       </body>
     </html>

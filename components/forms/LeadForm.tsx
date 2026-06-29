@@ -44,13 +44,13 @@ export function LeadForm({ campaignName, content, className }: LeadFormProps) {
 
             {/* Redesigned Contact Card */}
             <ScrollReveal direction="up" delay={200}>
-              <div className="bg-[#e2eae7] border border-[#d2dcd7] p-8 md:p-12 rounded-[2.5rem] shadow-2xl text-[#1e3328] space-y-8">
+              <div className="bg-emerald-50 border border-emerald-100 p-8 md:p-12 rounded-[2.5rem] shadow-2xl text-slate-100 space-y-8">
                 
                 <div className="space-y-3">
-                  <h3 className="text-2xl md:text-3.5xl font-black tracking-tight">
+                  <h3 className="text-2xl md:text-3.5xl font-black tracking-tight text-slate-100">
                     {content?.title || "Let's work together! 🍃"}
                   </h3>
-                  <p className="text-sm md:text-base text-[#4c6356] font-medium leading-relaxed max-w-xl">
+                  <p className="text-sm md:text-base text-slate-500 font-medium leading-relaxed max-w-xl">
                     {content?.subtitle || "I'm open to internships, collaborations and exciting opportunities."}
                   </p>
                 </div>
@@ -58,13 +58,13 @@ export function LeadForm({ campaignName, content, className }: LeadFormProps) {
                 <div className="space-y-5">
                   {/* Email */}
                   <div className="flex items-center gap-4 text-base md:text-lg font-bold">
-                    <div className="w-10 h-10 rounded-full bg-[#cbd9d3] flex items-center justify-center shrink-0">
-                      <Mail className="w-5 h-5 text-[#2b4236]" />
+                    <div className="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center shrink-0">
+                      <Mail className="w-5 h-5 text-emerald-500" />
                     </div>
                     <a
                       href={`mailto:${content?.email || 'ttluong1909@gmail.com'}`}
                       onClick={() => trackCTAClick('Contact Card - Email', 'email')}
-                      className="hover:underline hover:text-[#3f6551] transition-all"
+                      className="hover:underline hover:text-emerald-500 transition-all text-slate-100"
                     >
                       {content?.email || 'ttluong1909@gmail.com'}
                     </a>
@@ -72,23 +72,23 @@ export function LeadForm({ campaignName, content, className }: LeadFormProps) {
 
                   {/* Location */}
                   <div className="flex items-center gap-4 text-base md:text-lg font-bold">
-                    <div className="w-10 h-10 rounded-full bg-[#cbd9d3] flex items-center justify-center shrink-0">
-                      <MapPin className="w-5 h-5 text-[#2b4236]" />
+                    <div className="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center shrink-0">
+                      <MapPin className="w-5 h-5 text-emerald-500" />
                     </div>
-                    <span className="text-[#1e3328]">
+                    <span className="text-slate-100">
                       {content?.location || 'Tân Thuận Tây, Quận 7, Tp. HCM'}
                     </span>
                   </div>
 
                   {/* Phone */}
                   <div className="flex items-center gap-4 text-base md:text-lg font-bold">
-                    <div className="w-10 h-10 rounded-full bg-[#cbd9d3] flex items-center justify-center shrink-0">
-                      <Phone className="w-5 h-5 text-[#2b4236]" />
+                    <div className="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center shrink-0">
+                      <Phone className="w-5 h-5 text-emerald-500" />
                     </div>
                     <a
                       href={`tel:${(content?.phone || '0776 275 793').replace(/\s+/g, '').split('(')[0]}`}
                       onClick={() => trackCTAClick('Contact Card - Phone', 'phone')}
-                      className="hover:underline hover:text-[#3f6551] transition-all"
+                      className="hover:underline hover:text-emerald-500 transition-all text-slate-100"
                     >
                       {content?.phone || '0776 275 793 (Zalo)'}
                     </a>
@@ -99,7 +99,7 @@ export function LeadForm({ campaignName, content, className }: LeadFormProps) {
                   <a
                     href={`mailto:${content?.email || 'ttluong1909@gmail.com'}`}
                     onClick={() => trackCTAClick('Contact Card - Say Hello Button', 'cta_button')}
-                    className="inline-flex items-center justify-center gap-2 bg-[#3f6551] hover:bg-[#2d493a] text-white font-extrabold px-8 py-3.5 rounded-full shadow-lg hover:shadow-[#3f6551]/25 transform hover:-translate-y-0.5 transition-all duration-200 uppercase text-xs tracking-wider"
+                    className="inline-flex items-center justify-center gap-2 bg-emerald-500 hover:bg-emerald-600 text-white font-extrabold px-8 py-3.5 rounded-full shadow-lg hover:shadow-emerald-500/25 transform hover:-translate-y-0.5 transition-all duration-200 uppercase text-xs tracking-wider"
                   >
                     {content?.ctaText || 'Say Hello'}
                     <Send className="w-4 h-4 ml-1" />

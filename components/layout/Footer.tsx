@@ -1,19 +1,10 @@
 'use client'
 
 import { Mail, Phone, MapPin, Globe } from 'lucide-react'
-import { useState, useEffect } from 'react'
+import { useLanguage } from '@/components/context/LanguageContext'
 
 export function Footer() {
-  const [lang, setLang] = useState<'vi' | 'en'>('vi')
-
-  useEffect(() => {
-    const pathname = window.location.pathname
-    if (pathname.endsWith('-en')) {
-      setLang('en')
-    } else {
-      setLang('vi')
-    }
-  }, [])
+  const { lang } = useLanguage()
 
   return (
     <footer className="bg-slate-900 border-t border-slate-800 text-slate-100 py-16 px-6 md:px-10 relative">
