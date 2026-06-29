@@ -84,25 +84,25 @@ export function FairyDust() {
     ): Particle => {
       const isTrail = type === 'trail'
       const size = isTrail
-        ? Math.random() * 4.5 + 2.5 // Trail size: 2.5px to 7.0px
+        ? Math.random() * 3 + 2.5 // Trail size: 2.5px to 5.5px (restored to original subtle size)
         : Math.random() * 2.2 + 1.2 // Ambient size: 1.2px to 3.4px
 
       return {
         x,
         y,
         vx: isTrail
-          ? (Math.random() - 0.5) * 2.4 // Spread wider horizontally
+          ? (Math.random() - 0.5) * 1.6 // Scatter horizontally (restored to original)
           : (Math.random() - 0.5) * 0.5, // Slow drift
         vy: isTrail
-          ? Math.random() * 1.1 + 0.4 // Fall slowly downwards
+          ? Math.random() * 0.8 + 0.3 // Fall slowly downwards (restored to original)
           : -(Math.random() * 0.4 + 0.15), // Drift slowly upwards
         size,
         maxSize: size,
         color: COLORS[Math.floor(Math.random() * COLORS.length)],
         alpha: isTrail ? 1.0 : 0.0, // Ambient starts hidden to fade-in
         decay: isTrail
-          ? Math.random() * 0.01 + 0.008 // Decay rate for trail (longer life: 80-120 frames)
-          : Math.random() * 0.004 + 0.003, // Decay rate for ambient (longer life: 250-330 frames)
+          ? Math.random() * 0.015 + 0.015 // Decay rate for trail (40-60 frames - restored to original)
+          : Math.random() * 0.004 + 0.003, // Decay rate for ambient
         sparkleSpeed: Math.random() * 0.1 + 0.03,
         sparkleVal: Math.random() * Math.PI,
         type,
@@ -159,17 +159,17 @@ export function FairyDust() {
         const distance = Math.sqrt(dx * dx + dy * dy)
 
         // Only spawn if mouse has moved a bit
-        if (distance > 1.5) {
-          // Double density steps for a much thicker trail
-          const steps = Math.min(Math.floor(distance / 2), 12) 
+        if (distance > 2) {
+          // Restore original step size interpolation
+          const steps = Math.min(Math.floor(distance / 4), 6) 
           for (let i = 0; i <= steps; i++) {
             const t = steps === 0 ? 0 : i / steps
             const x = lastMousePos.current.x + dx * t
             const y = lastMousePos.current.y + dy * t
 
-            // Spawn 3 to 5 particles at each step
-            const spawnCount = Math.floor(Math.random() * 3) + 3
-            for (let k = 0; k < spawnCount; k++) {
+            // Restore original sparse particle counts (1 to 2 particles)
+            particlesRef.current.push(createParticle(x, y, 'trail'))
+            if (Math.random() > 0.6) {
               particlesRef.current.push(createParticle(x, y, 'trail'))
             }
           }
