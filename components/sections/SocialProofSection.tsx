@@ -1,7 +1,10 @@
+'use client'
+
 import { cn } from '@/lib/utils'
 import Image from 'next/image'
 import { Star } from 'lucide-react'
 import { ScrollReveal } from '@/components/utils/ScrollReveal'
+import { useLanguage } from '@/components/context/LanguageContext'
 
 interface TestimonialItem {
   id: string
@@ -26,6 +29,7 @@ export function SocialProofSection({
   testimonials,
   className,
 }: SocialProofSectionProps) {
+  const { lang } = useLanguage()
   return (
     <section
       id="projects"
@@ -117,8 +121,31 @@ export function SocialProofSection({
 
           </div>
 
-          {/* Right space empty (Columns 8-12) for background image */}
-          <div className="hidden lg:block lg:col-span-5 h-[10px]" />
+          {/* Right Column (Columns 8-12): Projects Showcase Grid */}
+          <div className="lg:col-span-5 space-y-6 w-full text-left">
+            <ScrollReveal direction="right" delay={150}>
+              <h3 className="text-sm font-black text-slate-100 uppercase tracking-widest mb-4">
+                {lang === 'en' ? 'Featured Projects' : 'Dự Án Thực Chiến'}
+              </h3>
+            </ScrollReveal>
+            <div className="grid grid-cols-1 gap-6">
+              {[
+                { src: '/project/a.png', alt: 'E-Clean Vietnam' },
+                { src: '/project/b.png', alt: 'EduHub Academic' },
+                { src: '/project/c.png', alt: 'SEO Audit Showcase' },
+              ].map((proj, index) => (
+                <ScrollReveal key={index} direction="right" delay={200 + index * 100}>
+                  <div className="group relative rounded-[2rem] overflow-hidden border border-slate-800 shadow-xl bg-slate-900/40 p-2 transition-all duration-300 hover:border-emerald-500/30">
+                    <img
+                      src={proj.src}
+                      alt={proj.alt}
+                      className="w-full h-auto rounded-[1.8rem] object-cover transition duration-500 group-hover:scale-[1.015]"
+                    />
+                  </div>
+                </ScrollReveal>
+              ))}
+            </div>
+          </div>
 
         </div>
       </div>
