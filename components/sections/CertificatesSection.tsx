@@ -62,8 +62,22 @@ export function CertificatesSection({ content, className }: CertificatesSectionP
         {/* Content Layout - Left side empty for background image, Right side contains certificates cards */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
           
-          {/* Left Column (Columns 1-5) left empty to show background character */}
-          <div className="hidden lg:block lg:col-span-5 h-[10px]" />
+          {/* Left Column (Columns 1-5): Character Image */}
+          <div className="lg:col-span-5 flex justify-center items-center w-full">
+            <ScrollReveal direction="left" delay={200} className="w-full">
+              <div className="relative group max-w-[90%] md:max-w-md mx-auto">
+                {/* Soft orange glow backdrop */}
+                <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-emerald-300 rounded-[2.2rem] blur opacity-15 group-hover:opacity-30 transition duration-1000 group-hover:duration-200" />
+                <div className="relative p-1.5 rounded-[2.2rem]">
+                  <img
+                    src="/character_images/4.png"
+                    alt="Chứng chỉ"
+                    className="w-full h-auto rounded-[2rem] object-cover transition duration-500 group-hover:scale-[1.01]"
+                  />
+                </div>
+              </div>
+            </ScrollReveal>
+          </div>
 
           {/* Right Column (Columns 6-12): Certificates grid */}
           <div className="lg:col-span-7 space-y-12">

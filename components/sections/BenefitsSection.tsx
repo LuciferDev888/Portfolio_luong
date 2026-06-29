@@ -92,8 +92,22 @@ export function BenefitsSection({
 
           </div>
 
-          {/* Right space empty (Columns 8-12) for character alignment */}
-          <div className="hidden lg:block lg:col-span-5 h-[10px]" />
+          {/* Right Column (Columns 8-12): Character Image */}
+          <div className="lg:col-span-5 flex justify-center items-center w-full">
+            <ScrollReveal direction="right" delay={200} className="w-full">
+              <div className="relative group max-w-[90%] md:max-w-md mx-auto">
+                {/* Soft orange glow backdrop */}
+                <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-emerald-300 rounded-[2.2rem] blur opacity-15 group-hover:opacity-30 transition duration-1000 group-hover:duration-200" />
+                <div className="relative p-1.5 rounded-[2.2rem]">
+                  <img
+                    src="/character_images/3.png"
+                    alt="Năng lực"
+                    className="w-full h-auto rounded-[2rem] object-cover transition duration-500 group-hover:scale-[1.01]"
+                  />
+                </div>
+              </div>
+            </ScrollReveal>
+          </div>
 
         </div>
       </div>
