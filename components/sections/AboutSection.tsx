@@ -139,8 +139,22 @@ export function AboutSection({ content, className }: AboutSectionProps) {
 
           </div>
 
-          {/* Right space empty (Columns 8-12) for background girl image */}
-          <div className="hidden lg:block lg:col-span-5 h-[10px]" />
+          {/* Right Column (Columns 8-12): Biography / Profile Image */}
+          <div className="lg:col-span-5 flex justify-center items-center w-full">
+            <ScrollReveal direction="right" delay={200} className="w-full">
+              <div className="relative group max-w-[90%] md:max-w-md mx-auto">
+                {/* Brand color backdrop blur */}
+                <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-emerald-300 rounded-[2.2rem] blur opacity-20 group-hover:opacity-35 transition duration-1000 group-hover:duration-200" />
+                <div className="relative bg-slate-950/30 border border-slate-900/10 rounded-[2.2rem] p-1.5 backdrop-blur-sm">
+                  <img
+                    src="/about_me.png"
+                    alt="About Me"
+                    className="w-full h-auto rounded-[2rem] object-cover shadow-2xl transition duration-500 group-hover:scale-[1.01]"
+                  />
+                </div>
+              </div>
+            </ScrollReveal>
+          </div>
 
         </div>
 
